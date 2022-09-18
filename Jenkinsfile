@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
-                sh 'hello-world.py'
+                sh 'python hello-world.py'
             }
         }
     }
